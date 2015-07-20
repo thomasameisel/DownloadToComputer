@@ -16,7 +16,7 @@ or downloading the source code and typing:
 
 <b>Running the Program</b>
 
-To run this program, add your API key to the config.json file. Your API key can be found in Account Settings on the pushbullet site.
+To run this program, add your API key to the config.json file. Your API key can be found in Account Settings on the pushbullet <a href="https://www.pushbullet.com/account">site</a>.
 
 Type this command in the terminal to run the program:
 
