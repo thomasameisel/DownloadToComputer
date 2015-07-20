@@ -66,7 +66,7 @@ class Downloader(object):
                 download_file_location = downloads_dir+"/"+uniqueTitle
                 urllib.urlretrieve (push.get("url"), download_file_location)
                 print "URL: %s File name: %s" % (url, uniqueTitle)
-        self.last_push = max(self.last_push, url)
+        self.last_push = max(self.last_push, push.get("created"))
 
     def run(self):
         try:
